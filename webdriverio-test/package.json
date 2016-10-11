@@ -1,0 +1,18 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wdio": "^0.3.3"
+  },
+  "devDependencies": {
+    "wdio": "^0.3.3",
+    "wdio-mocha-framework": "^0.4.3"
+  }
+}
