@@ -1,0 +1,23 @@
+{
+  "name": "blog-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arctic-fox-2016/blog-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arctic-fox-2016/blog-e2e/issues"
+  },
+  "homepage": "https://github.com/arctic-fox-2016/blog-e2e#readme",
+  "dependencies": {
+    "webdriverio": "^4.2.16"
+  }
+}
