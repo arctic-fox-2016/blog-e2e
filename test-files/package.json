@@ -1,0 +1,16 @@
+{
+  "name": "test-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.4.3",
+    "webdriverio": "^4.2.16"
+  }
+}
