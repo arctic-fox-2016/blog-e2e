@@ -1,10 +1,10 @@
 let mongoose = require('mongoose')
 let chai = require('chai')
 let expect = chai.expect
-let controller = require('../controller/index.js')
+let controller = require('../../controller/index.js')
 let http = require('http')
 let chaiHttp = require('chai-http')
-let Article = require('../models/articles.js')
+let Article = require('../../models/articles.js')
 
 
 chai.use(chaiHttp)

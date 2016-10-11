@@ -10,7 +10,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/*.js'
+        './test/e2e/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -114,7 +114,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['dot'],
+    reporters: ['spec'],
 
     //
     // Options to be passed to Mocha.

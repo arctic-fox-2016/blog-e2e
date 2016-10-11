@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "mocha test/unit/*.js",
+    "test:e2e": "wdio"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "mocha": "^3.1.0",
     "selenium-standalone": "^5.7.2",
     "wdio-mocha-framework": "^0.4.3",
+    "wdio-spec-reporter": "0.0.3",
     "webdriverio": "^4.2.16"
   }
 }
