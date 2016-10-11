@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/arctic-fox-2016/blog-e2e#readme",
   "dependencies": {
     "webdriverio": "^4.2.16"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.4.3",
+    "wdio-sauce-service": "^0.2.5"
   }
 }
