@@ -1,0 +1,23 @@
+{
+  "name": "blog-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arctic-fox-2016/blog-e2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arctic-fox-2016/blog-e2e/issues"
+  },
+  "homepage": "https://github.com/arctic-fox-2016/blog-e2e#readme",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.4.3",
+    "webdriverio": "^4.2.16"
+  }
+}
